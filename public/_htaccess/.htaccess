@@ -1,0 +1,5 @@
+# http to https
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteCond %{REQUEST_URI} !(^/WEBMAIL/|^/dnwml3/|^/dnwmlroot3/)
+RewriteRule ^(.*)$ https://www.no4.co.jp%{REQUEST_URI} [R=301,L]

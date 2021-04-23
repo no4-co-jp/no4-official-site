@@ -1,0 +1,94 @@
+<header id="masthead">
+  <div class="top-header">
+    <div class="container clearfix">
+      <div class="header-social-block">
+        <div class="social-links clearfix">
+          <a target="_blank" href="https://www.facebook.com/no4.official/">
+            <i class="fa fa-facebook"></i>
+          </a>
+          <a target="_blank" href="https://twitter.com/no4_official">
+            <i class="fa fa-twitter"></i>
+          </a>
+        </div>
+      </div>
+      <div id="site-branding">
+        <a href="/" rel="home" itemprop="url">
+          <img width="181" height="91" src="/resource/img/no4_logo.jpg" class="custom-logo" alt="" itemprop="logo" />
+        </a>
+      </div>
+    </div>
+  </div>
+  <div id="sticky_header">
+    <div class="container clearfix">
+      <div class="menu-toggle">
+        <div class="line-one"></div>
+        <div class="line-two"></div>
+        <div class="line-three"></div>
+      </div>
+      <h3 class="nav-site-title">
+        <a href="/" title="ナンバーフォー &#8211; 福井のソフトウェア設計・開発とシステムコンサルタント &#8211;">ナンバーフォー &#8211;
+          福井のソフトウェア設計・開発とシステムコンサルタント &#8211;</a>
+      </h3>
+      <nav id="site-navigation" class="main-navigation clearfix">
+        <ul class="menu">
+          <li class="menu-item-has-children menu-item-company">
+            <a>会社概要</a>
+            <ul>
+              <li><a href="/company/about/">会社概要</a></li>
+              <li><a href="/company/policy/">社是・ポリシー</a></li>
+              <li><a href="/company/security/">情報セキュリティ方針</a></li>
+              <li><a href="/company/map/">地図</a></li>
+              <li><a href="/company/exterior/">外観</a></li>
+              <li><a href="/company/interior/">社内案内</a></li>
+            </ul>
+          </li>
+          <li class="menu-item-project">
+            <a href="/project/">事業内容</a>
+          </li>
+          <li class="menu-item-has-children menu-item-recruit">
+            <a>採用情報</a>
+            <ul class="sub-menu">
+              <li><a href="/recruit/requirement/">募集要項</a></li>
+              <li><a href="/recruit/voice/">社員の声</a></li>
+              <li><a href="/recruit/qa/">Q&#038;A</a></li>
+            </ul>
+          </li>
+          <li class="menu-item-gallery">
+            <a href="/gallery/">ギャラリー</a>
+          </li>
+          <li class="menu-item-inquiry">
+            <a href="/inquiry/">お問い合わせ</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+<script>
+  // polyfill
+  if (!String.prototype.startsWith) {
+    Object.defineProperty(String.prototype, 'startsWith', {
+      value: function (search, rawPos) {
+        var pos = rawPos > 0 ? rawPos | 0 : 0;
+        return this.substring(pos, pos + search.length) === search;
+      }
+    });
+  }
+  const path = location.pathname;
+  if (path !== null) {
+    const menuList = [
+      "company",
+      "project",
+      "recruit",
+      "gallery",
+      "inquiry",
+    ];
+    for (const key in menuList) {
+      const value = menuList[key];
+      if (path.startsWith("/" + value + "/")) {
+        document.querySelector(".menu-item-" + value).classList.add("current-menu-item");
+        break;
+      }
+    }
+  }
+</script>
