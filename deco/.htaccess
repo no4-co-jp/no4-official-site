@@ -1,0 +1,6 @@
+#<Directory /home/rumi/public_html/deco>
+	AuthType Basic
+	AuthName "for your eyes only"
+	AuthUserFile /home/rumi/public_html/deco/.htpasswd
+	require valid-user
+#</Directory>

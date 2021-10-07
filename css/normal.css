@@ -1,0 +1,14 @@
+/*
+ * number four
+ * style file import
+ * 
+ * (c)no4.co.jp
+ *
+ */
+
+@import url("global.css");
+@import url("layout.css");
+@import url("font.css");
+@import url("menu.css");
+
+@import url("ie.css");

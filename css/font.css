@@ -1,0 +1,204 @@
+/*
+ * number four
+ * font style
+ * 
+ * (c)no4.co.jp
+ *
+ */
+
+/** text style **/
+ 
+.text-center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-weight-normal {
+	font-weight: normal;
+}
+
+.text-weight-bold {
+	font-weight: bold;
+}
+
+.text-letter-quarter {
+	letter-spacing: 0.25em;
+}
+
+.vertical-top {
+	vertical-align: top;
+}
+
+.vertical-middle {
+	vertical-align: middle;
+}
+
+.vertical-bottom {
+	vertical-align: bottom;
+}
+
+
+/** list separator **/
+
+ul.list-separator {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.list-separator li {
+	display: inline;
+	margin: 0 0 0 0.6em;
+	padding: 0 0 0 0.8em;
+	border-left: 1px solid #aeaeae;
+}
+
+.list-separator li:first-child {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.list-separator .list-first-child { /* Win IE */
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/** visual **/
+
+.text-none {
+	display: none;
+}
+
+.text-small {
+	color: #666;
+	font-size: 85%;
+	line-height: 1.4em;
+}
+
+.bgcolor-gray {
+	background: #e3e3e3;
+}
+
+.text-bgcolor-spacer {
+	padding: 3px 5px;
+}
+
+.text-link {
+	padding-left: 12px;
+	line-height: 1em;
+	min-height: 7px;
+	background: url(../siteimages/mark/link.gif) no-repeat left center;
+}
+
+.text-link2 {
+	padding-left: 12px;
+	line-height: 1em;
+	min-height: 7px;
+	background: url(../siteimages/mark/link2.gif) no-repeat left center;
+}
+
+.text-title {
+	padding-left: 14px;
+	line-height: 1em;
+	min-height: 9px;
+	background: url(../siteimages/mark/square.gif) no-repeat left center;
+}
+
+.image-border {
+	border: 1px solid #d9d9d9;
+}
+
+.image-text {
+	color: #666;
+	font-weight: bold;
+}
+
+.list-nostyle {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.text-line {
+	background-color: lemonchiffon;
+}
+
+/** table **/
+
+.full-size {
+	width: 100%;
+}
+
+table.table-cell-border {
+	border-collapse: collapse;
+	border-top: 1px solid #d9d9d9;
+}
+
+.table-cell-border th,
+.table-cell-border td {
+	padding: 5px 5px;
+	border-bottom: 1px solid #d9d9d9;
+}
+
+table.form {
+	border-collapse: collapse;
+	border-top: 2px solid #d9d9d9;
+	border-bottom: 2px solid #d9d9d9;
+}
+
+.form th {
+	padding: 7px 8px;
+}
+
+.form td {
+	padding: 7px 8px;
+}
+
+.form .odd {
+	background: #eeeeee;
+}
+
+.form .even {
+	background: #ffffff;
+}
+
+/** position **/
+
+.float-left {
+	float: left;:
+}
+
+.float-right {
+	float: right;
+}
+
+/** margin **/
+
+.text-margin-quarter {
+	margin-top: 0.25em;
+}
+
+.text-margin-half {
+	margin-top: 0.5em;
+}
+
+.text-margin-single {
+	margin-top: 1em;
+}
+
+.text-margin-double {
+	margin-top: 2em;
+}
+
+.text-no-margin {
+	margin-top: 0 !important;
+}

@@ -1,0 +1,33 @@
+/*
+ * number four
+ * smartphone button style
+ * 
+ * (c)no4.co.jp
+ *
+ */
+
+/** main menu **/
+
+.smartphone {
+  border-top: 1px solid #D9D9D9;
+  margin-top: 15px;
+}
+
+.smartphone .body {
+  margin-top: 15px;
+  line-height: 1.5em;
+}
+.smartphone .body .link {
+  margin-top:10px;
+  text-align: right;
+}
+
+.smartphone .body .link a {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+.smartphone .body .link a:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+}

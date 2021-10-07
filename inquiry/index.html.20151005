@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>お問い合わせ - 株式会社ナンバーフォー</title>
+<meta name="keywords" content="ソフトウェア,設計,開発,IT,福井,ナンバーフォー" />
+<meta name="description" content="株式会社ナンバーフォーは、ソフトウェア設計・開発の会社です。福井、東京、横浜を中心に、ユーザーに優しいテクノロジーをモットーとしてシステム開発を行っております。" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<link href="../css/normal.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="../script/mailaddress.js"></script>
+<script type="text/javascript" src="../script/image.js"></script>
+
+</head>
+<body>
+<div id="wraper">
+<div id="container">
+
+<!-- container-head: begin -->
+<div id="container-head">
+
+<!-- conetnts: begin -->
+<div id="contents">
+
+<!-- header: begin -->
+<div id="header">
+<div class="clearfix">
+<div id="sitelogo">
+<a href="../index.html" title="ナンバーフォー「トップページ」へ"><img src="../siteimages/logo/no4_logo.gif" alt="株式会社ナンバーフォー" width="138" height="91" /></a>
+</div>
+<div id="sublink">
+<ul class="list-separator">
+<li class="list-first-child"><a href="../index.html" title="ナンバーフォー「トップページ」へ">トップページ</a></li>
+<li><a href="../sitemap.html" title="ナンバーフォー「サイトマップ」へ">サイトマップ</a></li>
+</ul>
+</div>
+</div>
+<img src="../siteimages/header/img02.jpg" alt="株式会社ナンバーフォー" width="780" height="210" />
+</div>
+<!-- header: end -->
+
+<!-- sitemenu: begin -->
+<div id="sitemenu" class="clearfix">
+<ul>
+<li id="sitemenu-about"><a href="../about/index.html" title="ナンバーフォー「会社概要」へ">会社概要</a></li>
+<li id="sitemenu-project"><a href="../project/index.html" title="ナンバーフォー「事業内容」へ">事業内容</a></li>
+<li id="sitemenu-recruit"><a href="../recruit/index.html" title="ナンバーフォー「採用情報」へ">採用情報</a></li>
+<li id="sitemenu-gallery"><a href="../gallery/index.html" title="ナンバーフォー「ギャラリー」へ">ギャラリー</a></li>
+<li id="sitemenu-inquiry" class="select"><a href="../inquiry/index.html" title="ナンバーフォー「お問い合わせ」へ">お問い合わせ</a></li>
+</ul>
+</div>
+<!-- sitemenu: end -->
+
+<!-- main contents: begin -->
+<div id="main" class="clearfix">
+
+<!-- left contents: begin -->
+<div id="document-left">
+<script type="text/javascript">writeHtmlSideImage();</script>
+<noscript><img src="../siteimages/side/side01.jpg" alt="" width="210" height="108" class="image-border" /></noscript>
+<div id="document-link">
+<ul>
+<li class="select"><span class="text-link"><a href="index.html" title="ナンバーフォー「お問い合わせ」へ">お問い合わせ</a></span></li>
+</ul>
+</div>
+</div>
+<!-- left contents: end -->
+
+<!-- right contents: begin -->
+<div id="document-right">
+<h1><img src="images/title_inquiry.gif" alt="お問い合わせ" width="127" height="22" /></h1>
+<div class="text-margin-single">
+<p>弊社へのお問い合わせは、下記までお気軽にご連絡ください。</p>
+</div>
+<div class="text-margin-double">
+<p>■業務に関するお問い合わせは、下記のメールアドレスまで。</p>
+<script type="text/javascript">writeHtmlInquiryAddress();</script>
+</div>
+<div class="text-margin-double">
+<p>■採用に関するお問い合わせは、下記のメールアドレスまで。</p>
+<script type="text/javascript">writeHtmlRecruitAddress();</script>
+</div>
+<div class="text-margin-double">
+<p>■お電話でのお問い合わせをご希望の方は、下記電話番号まで。</p>
+<span class="text-link" style="margin-left:1em;">0776-30-4464　（受付時間：平日9:30～18:30）</span>
+</div>
+
+</div>
+<!-- right contents: end -->
+
+</div>
+<!-- main contents: end -->
+
+</div>
+<!-- contents: end -->
+
+</div>
+<!-- container-head: end -->
+
+<!-- container-bottom: begin -->
+<iframe src="../footer.html" width="840" frameborder="0" scrolling="no">iframe 対応のブラウザでご覧ください。</iframe>
+<!-- container-bottom: end -->
+
+</div>
+</div>
+</body>
+</html>

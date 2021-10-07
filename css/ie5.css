@@ -1,0 +1,31 @@
+/*
+ * number four
+ * windows ie version 5 hack
+ * 
+ * (c)no4.co.jp
+ *
+ */
+
+#contents {
+	margin: 0 30px;
+}
+
+#main {
+	margin: 30px 35px;
+}
+
+#footer {
+	margin: 0 30px;
+}
+
+#footer #address {
+	margin: 0 30px;
+}
+
+#footer #copyright {
+	margin: 0 30px;
+}
+
+th, td {
+	font-size: smaller;
+}

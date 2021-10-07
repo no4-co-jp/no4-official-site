@@ -1,0 +1,231 @@
+/*
+ * number four
+ * site layout style
+ * 
+ * (c)no4.co.jp
+ *
+ */
+
+body {
+	background:url(../siteimages/background/deep.jpg);
+}
+
+
+#wraper {
+	padding: 0;
+	margin: 0;
+	background:url(../siteimages/background/deep_grad.jpg) repeat-x;
+}
+
+#container {
+	width: 840px;
+	margin: 0 auto;
+	padding: 0;
+	background: url(../siteimages/background/shadow.jpg) repeat-y;
+}
+
+#container-head {
+	width: 840px;
+	margin: 0;
+	padding: 0;
+	background: url(../siteimages/background/shadow_top.jpg) no-repeat;
+}
+
+#container-bottom {
+	width: 840px;
+	margin: 0;
+	padding: 0;
+	background: url(../siteimages/background/shadow_bottom.jpg) no-repeat bottom;
+	clear:both;
+}
+
+#contents {
+	width: 780px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+/** contents **/
+
+#header {
+	width: 780px;
+}
+
+#sitelogo {
+	width: 138px;
+	height: 91px;
+	float: left;
+}
+
+#sublink {
+	width: 542px;
+	height: 91px;
+	float: right;
+	vertical-align: bottom;
+}
+
+#sublink ul {
+	padding-top: 10px;
+	text-align: right;
+}
+
+#sublink a:link,
+#sublink a:visited {
+	text-decoration: none;
+}
+
+#sublink a:hover,
+#sublink a:active {
+	text-decoration: underline;
+}
+
+#sitemenu {
+	width: 780px;
+	height: 65px;
+	margin-top: 4px;
+}
+
+/** main contents **/
+
+#main {
+	width: 710px;
+	margin: 30px auto;
+}
+
+/** index page **/
+
+#index-left {
+	width: 230px;
+	float: left;
+}
+
+#index-left dt {
+	margin: 0;
+	padding: 1em 0;
+}
+
+#index-left dd {
+	margin: 0;
+	padding: 0 0 0.8em 1em;
+	line-height: 1.5em;
+}
+
+
+#index-rigth {
+	width: 418px;
+	float: right;
+}
+
+#document-left {
+	width: 212px;
+	float: left;
+}
+
+#document-right {
+	width: 470px;
+	float: right;
+}
+
+#document-link {
+	margin-top: 10px;
+}
+
+#document-link ul {
+	list-style: none;
+}
+#document-link li {
+	font-size: 100%;
+	padding-top: 0.4em;
+}
+
+#document-link a:link,
+#document-link a:visited {
+	text-decoration: none;
+}
+
+#document-link .select a:link,
+#document-link .select a:visited {
+	color: #808080;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#document-link a:hover,
+#document-link a:active {
+	text-decoration: underline;
+}
+
+/** site footer **/
+
+#footer {
+	width: 780px;
+	height: 90px;
+	margin: 0 auto;
+	padding: 10px 0 30px;
+	border-top: 3px solid #c4e301;
+}
+
+#footer #leftside {
+	width: 380px;
+	padding-top: 24px;
+	padding-left: 30px;
+	float: left;
+}
+
+#footer #center {
+	width: 160px;
+	height: 90px;
+	float: left;
+	position: relative;
+}
+
+#footer #rightside {
+	width: 180px;
+	height: 90px;
+	float: right;
+	text-align: center;
+}
+
+#footer #address{
+	width: 720px;
+	margin: 0 auto;
+	padding: 0;
+	color: #666;
+	font-size: 90%;
+	line-height: 1.4em;
+}
+
+#footer #copyright {
+	width: 720px;
+	margin: 0 auto;
+	padding: 0.5em 0 0;
+	color: #808080;
+	font-size: 85%;
+	line-height: 1.4em;
+}
+
+#footer #isms {
+	width: 180px;
+	height: 80px;
+	vertical-align:bottom;
+	background: url(../images/isms.gif) no-repeat bottom;
+}
+
+#footer #ismsno {
+	color: #005BAB;
+}
+
+#footer #tokuha {
+	width: 180px;
+	height: 30px;
+	background: url(../images/tokuha.gif) no-repeat bottom;
+	position: absolute;
+	bottom: 0px;
+}
+
+/** misc **/
+
+.page-link {
+	margin-top: 2em;
+	text-align: right;
+}

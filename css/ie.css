@@ -1,0 +1,34 @@
+/*
+ * number four
+ * windows ie hack
+ * 
+ * (c)no4.co.jp
+ *
+ */
+
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%; }
+/* End hide from IE-mac */
+
+div {
+    zoom: 1; /* for IE 5.5-7 */
+}
+
+img {
+	_vertical-align: bottom;
+}
+
+#wraper {
+	_text-align: center;
+}
+
+#container {
+	_text-align: left;
+}
+
+/* for IE-mac */
+/* \*//*/
+.list-separator li { border: 0; }
+/**/
+
+@media tty {i{content:"\";/*" "*/}} @import 'ie5.css'; /*";}}/* */

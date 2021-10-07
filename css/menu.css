@@ -1,0 +1,112 @@
+/*
+ * number four
+ * site menu button style
+ * 
+ * (c)no4.co.jp
+ *
+ */
+
+/** main menu **/
+
+#sitemenu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#sitemenu li {
+	width: 156px;
+	height: 65px;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+#sitemenu li a {
+	display: block;
+	width: 156px;
+	height: 65px;
+	font-size: 0;
+	line-height: 65px;
+	text-indent: -9999px;
+}
+
+/** about **/
+
+#sitemenu-about a:link,
+#sitemenu-about a:visited {
+	background: url(../siteimages/menu/about.gif) no-repeat;
+}
+
+#sitemenu-about a:hover,
+#sitemenu-about a:active {
+	background: url(../siteimages/menu/about.gif) no-repeat 0 -65px;
+}
+
+#sitemenu-about.select a {
+	background: url(../siteimages/menu/about.gif) no-repeat 0 -65px;
+}
+
+/** project **/
+
+#sitemenu-project a:link,
+#sitemenu-project a:visited {
+	background: url(../siteimages/menu/project.gif) no-repeat;
+}
+
+#sitemenu-project a:hover,
+#sitemenu-project a:active {
+	background: url(../siteimages/menu/project.gif) no-repeat 0 -65px;
+}
+
+#sitemenu-project.select a {
+	background: url(../siteimages/menu/project.gif) no-repeat 0 -65px;
+}
+
+/** recruit **/
+
+#sitemenu-recruit a:link,
+#sitemenu-recruit a:visited {
+	background: url(../siteimages/menu/recruit.gif) no-repeat;
+}
+
+#sitemenu-recruit a:hover,
+#sitemenu-recruit a:active  {
+	background: url(../siteimages/menu/recruit.gif) no-repeat 0 -65px;
+}
+
+#sitemenu-recruit.select a  {
+	background: url(../siteimages/menu/recruit.gif) no-repeat 0 -65px;
+}
+
+/** gallery **/
+
+#sitemenu-gallery a:link,
+#sitemenu-gallery a:visited {
+	background: url(../siteimages/menu/gallery.gif) no-repeat;
+}
+
+#sitemenu-gallery a:hover,
+#sitemenu-gallery a:active {
+	background: url(../siteimages/menu/gallery.gif) no-repeat 0 -65px;
+}
+
+#sitemenu-gallery.select a {
+	background: url(../siteimages/menu/gallery.gif) no-repeat 0 -65px;
+}
+
+/** inquiry **/
+
+#sitemenu-inquiry a:link,
+#sitemenu-inquiry a:visited {
+	background: url(../siteimages/menu/inquiry.gif) no-repeat;
+}
+
+#sitemenu-inquiry a:hover,
+#sitemenu-inquiry a:active {
+	background: url(../siteimages/menu/inquiry.gif) no-repeat 0 -65px;
+}
+
+#sitemenu-inquiry.select {
+	background: url(../siteimages/menu/inquiry.gif) no-repeat 0 -65px;
+}
