@@ -39,9 +39,10 @@ module.exports = {
   rules: {
     // 複雑度が10を超えていないか
     complexity: ['error', 10],
-    // '@typescript-eslint/no-unused-vars': 'off',
+    '@typescript-eslint/no-unused-vars': 'off',
     // // 未使用のimportを削除
     'unused-imports/no-unused-imports': 'error',
+    // importの順を整理
     'import/order': [
       'error',
       {

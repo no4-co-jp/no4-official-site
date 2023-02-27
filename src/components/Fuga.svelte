@@ -7,11 +7,11 @@
 
 <style>
   .fuga {
-    flex: 1;
-    background-color: rgb(133, 133, 223);
     display: flex;
-    justify-content: center;
+    flex: 1;
     align-items: center;
+    justify-content: center;
     padding: 10px;
+    background-color: rgb(133 133 223);
   }
 </style>
