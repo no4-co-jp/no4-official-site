@@ -17,5 +17,13 @@
 	"volta": {
 		"node": "18.14.0",
 		"npm": "9.3.1"
+	},
+	"devDependencies": {
+		"@types/node": "^18.15.1",
+		"@types/resize-img": "^2.0.1",
+		"globby": "^13.1.3",
+		"image-size": "^1.0.2",
+		"resize-img": "^2.0.0",
+		"ts-node": "^10.9.1"
 	}
 }
