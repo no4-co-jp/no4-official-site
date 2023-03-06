@@ -1,6 +1,10 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.svelte';
+import tree from "/images/456013_l.jpg";
+import tree1280 from "/images/456013_l-1280-gen.jpg";
+import tree640 from "/images/456013_l-640-gen.jpg";
+import tree320 from "/images/456013_l-320-gen.jpg";
 ---
 
 <Layout title="Welcome to Astro.">
@@ -33,6 +37,11 @@ import Card from '../components/Card.svelte';
 			/>
 		</ul>
 	</main>
+	<img
+		src={tree}
+		srcset={`${tree1280} 1280w, ${tree640} 640w, ${tree320} 320w`}
+		sizes="(max-width:1280px) 100vw, 1280px"
+	/>
 </Layout>
 
 <style>
