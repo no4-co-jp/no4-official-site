@@ -64,18 +64,20 @@ module.exports = {
         pathGroups: [
           // 指定した順番にソートされる
           {
-            pattern: '@layouts/**',
+            // pattern: '@layouts/**',
+            pattern: '~/layouts/**',
             group: 'internal',
             position: 'before',
           },
           {
-            pattern: '@components/**',
+            // pattern: '@layouts/**',
+            pattern: '~/components/**',
             group: 'internal',
             position: 'before',
           },
           // TODO: assetsは一旦仮
           {
-            pattern: '@assets/**',
+            pattern: '~/asstes',
             group: 'sibling',
             position: 'after',
           },

@@ -1,12 +1,10 @@
 /** @type {import('stylelint').Config} */
-
-module.exports = {
+const config = {
   extends: [
     'stylelint-config-standard',
     'stylelint-config-recess-order',
     'stylelint-config-html',
   ],
-
   rules: {
     // セレクタの重複を許可しない
     'no-duplicate-selectors': true,
@@ -18,3 +16,5 @@ module.exports = {
     // 'color-function-notation': 'legacy'
   },
 };
+
+module.exports = config;
