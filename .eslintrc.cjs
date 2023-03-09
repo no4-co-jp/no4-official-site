@@ -1,6 +1,6 @@
 /** @type {import('eslint/lib/shared/types').ConfigData} */
 
-module.exports = {
+const config = {
   env: {
     browser: true,
     es2021: true,
@@ -87,3 +87,5 @@ module.exports = {
     'import/first': 'error',
   },
 };
+
+module.exports = config;
