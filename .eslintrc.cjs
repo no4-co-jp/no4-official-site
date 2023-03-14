@@ -1,5 +1,4 @@
 /** @type {import('eslint/lib/shared/types').ConfigData} */
-
 const config = {
   env: {
     browser: true,
