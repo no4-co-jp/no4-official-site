@@ -1,21 +1,39 @@
 {
-	"name": "",
-	"type": "module",
-	"version": "0.0.1",
-	"scripts": {
-		"dev": "astro dev",
-		"start": "astro dev",
-		"build": "astro build",
-		"preview": "astro preview",
-		"astro": "astro"
-	},
-	"dependencies": {
-		"@astrojs/svelte": "^2.0.1",
-		"astro": "^2.0.11",
-		"svelte": "^3.55.1"
-	},
-	"volta": {
-		"node": "18.14.0",
-		"npm": "9.3.1"
-	}
+  "name": "",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/svelte": "^2.0.1",
+    "astro": "^2.0.11",
+    "svelte": "^3.55.1"
+  },
+  "volta": {
+    "node": "18.14.0",
+    "npm": "9.3.1"
+  },
+  "devDependencies": {
+    "@tsconfig/svelte": "^3.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.53.0",
+    "@typescript-eslint/parser": "^5.53.0",
+    "eslint": "^8.34.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-astro": "^0.23.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-svelte3": "^4.0.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "postcss-html": "^1.5.0",
+    "prettier-plugin-astro": "^0.8.0",
+    "prettier-plugin-svelte": "^2.9.0",
+    "stylelint": "^15.2.0",
+    "stylelint-config-html": "^1.1.0",
+    "stylelint-config-recess-order": "^4.0.0",
+    "stylelint-config-standard": "^30.0.1"
+  }
 }
