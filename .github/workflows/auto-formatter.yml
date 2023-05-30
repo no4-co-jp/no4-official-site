@@ -2,9 +2,9 @@ name: Prettierauto
 on:
   pull_request:
     types: [opened]
-    branches: [main, develop]
+    branches: [main, release/*]
   push:
-    branches: [develop]
+    branches: [release/*]
 permissions:
   actions: write
   checks: write
