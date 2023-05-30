@@ -1,0 +1,37 @@
+name: Prettierauto
+on:
+  pull_request:
+    types: [opened]
+    branches: [main, develop]
+  push:
+    branches: [develop, feature/**]
+permissions:
+  actions: write
+  checks: write
+  contents: write
+  deployments: write
+  issues: write
+  packages: write
+  pull-requests: write
+  repository-projects: write
+  security-events: write
+  statuses: write
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v3
+        with:
+          node-version: lts/*
+          cache: npm
+      - name: npm ci
+        run: npm ci
+      - name: Run Prettier
+        run: |
+          npm run prettier
+          npm run eslint:fix
+      - name: Git Auto Commit
+        uses: stefanzweifel/git-auto-commit-action@v4.16.0
+        with:
+          commit_message: Apply Formatter

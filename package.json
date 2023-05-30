@@ -7,7 +7,9 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "eslint:fix": "eslint --fix './src'",
+    "prettier": "prettier --write './src'"
   },
   "dependencies": {
     "@astrojs/svelte": "^2.0.1",
