@@ -4,7 +4,7 @@ on:
     types: [opened]
     branches: [main, develop]
   push:
-    branches: [develop, feature/**]
+    branches: [develop]
 permissions:
   actions: write
   checks: write
