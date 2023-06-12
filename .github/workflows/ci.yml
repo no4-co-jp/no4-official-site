@@ -1,0 +1,24 @@
+name: CI
+on:
+  pull_request:
+    types:
+      - opened
+      - synchronize
+    branches:
+      - main
+      - 'release/**'
+jobs:
+  format_check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+          cache: npm
+      - name: npm ci
+        run: npm ci
+      - name: Run Prettier
+        run: npm run prettier
+      - name: Run Eslint
+        run: npm run eslint
